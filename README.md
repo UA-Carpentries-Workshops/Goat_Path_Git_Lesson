@@ -4,17 +4,19 @@ This is the miminum viable git lesson for researchers, also known as the "Goat P
 Why a goat path? Well a goat path can be the shortest (and possibly the safest) path to follow in a remote place you're not familiar with (exactly how researchers learning code often feel about versioning technologies). The beauty of a goat path is that something (quite possibly actual goats) have followed that path so many times it's actually cut a path through the vegetation. If it wasn't safe it's very likely the path wouldn't get cut because those things wouldn't be able to retread their path.
 
 In case you've never seen a goat path before: this is one.
-<img src="/images/goat_path.jpg" width="250">
+
+<img src="/images/goat_path.jpg" width="450">
 
 If you don't follow the goat path as a beginner, bad things happen sometimes. This is so common with git that the popular comic XKCD has even commented on it.
-<img src="/images/git_xkcd.png" width="200">
+
+<img src="/images/git_xkcd.png" width="450">
 [Comic by XKCD](https://xkcd.com/1597/)
 
 *Please note:* there has been no mention of coding above. That's on purpose; git can be used to version regular text (manuscripts, dissertations, theses, etc), data (though there are many, many other [probably better] ways to do this), as well as code! Versioning is great. And versioning is really the whole point here. Git just happens to be the tool we use (but there are many other options, go explore!). 
 
 We've all had this happen before. Researchers do this to version things all the time. There's a better way!
-![PHD Comics About Versioning](/images/phd101212s.gif?raw=True "Title" =100x)
 
+<img src="/images/phd101212s.gif" width="450">
 [Comic by Jorge Cham](http://phdcomics.com/comics/archive.php?comicid=1531)
 
 
@@ -27,10 +29,12 @@ So let's set down some functional requirements for versioning needed by research
 - Let them grow into using other aspects of the tool to solve other versioning needs that will arise as they work with the tool over time.
 
 This is a hammer that you can drive a nail and accomplish a task at nearly any skill level.
-![Regular Ol' Hammer](/images/claw_hammer.jpg?raw=True "Title" =100x)
+
+<img src="/images/claw_hammer.jpg" width="450">
 
 This is what git gives you out of the box. Each of those tools are probably very useful, but it's so confusing as to be useless until you know how to use each and every one of those attachments. We ain't using this hammer here. Because it's confusing. And confusing is worthless for beginners needing to get something done.
-![Swiss Army Hammer](/images/swiss_army_hammer.jpg?raw=True "Title" =100x)
+
+<img src="/images/swiss_army_hammer.jpg" width="450">
 
 2. Researchers need a way to publish what they are working on, collaborate with others to improve code they use, and ultimately make it available to the *entire* world so that others can use it, build on it, repeat it, and many other things to increase human knowledge. Underline collaborate in your mind. Go on meow, underline it.
 
@@ -71,5 +75,3 @@ Research has been happening for hundreds of years before versioning tools. I thi
 
 ## You're playing with forces you can't possibly understand!
 You're right. I'm a researcher; I do that every day. 
-
-
