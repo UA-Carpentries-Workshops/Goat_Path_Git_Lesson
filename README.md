@@ -4,7 +4,7 @@ This is the miminum viable git lesson for researchers, also known as the "Goat P
 Why a goat path? Well a goat path can be the shortest (and possibly the safest) path to follow in a remote place you're not familiar with (exactly how researchers learning code often feel about versioning technologies). The beauty of a goat path is that something (quite possibly actual goats) have followed that path so many times it's actually cut a path through the vegetation. If it wasn't safe it's very likely the path wouldn't get cut because those things wouldn't be able to retread their path.
 
 In case you've never seen a goat path before: this is one.
-![Goat Path Goodness](/images/goat_path.jpg?raw=True "Title"){width="100px"}
+![Goat Path Goodness](/images/goat_path.jpg?raw=True "Title" {width="100px"})
 
 If you don't follow the goat path as a beginner, bad things happen sometimes. This is so common with git that the popular comic XKCD has even commented on it.
 ![Git Explained](/images/git_xkcd.png?raw=True "Title" =100x)
