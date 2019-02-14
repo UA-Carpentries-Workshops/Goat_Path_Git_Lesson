@@ -3,7 +3,7 @@ This is the miminum viable git lesson for researchers, also known as the "Goat P
 
 *Please note:* there has been no mention of coding here. That's on purpose; git can be used to version regular text (manuscripts, dissertations, theses, etc), data (though there are many, many other [probably better] ways to do this), as well as code! Versioning is great. And versioning is really the whole point here. Git just happens to be the tool we use (but there are many other options, go explore!). 
 
-![PHD Comics About Versioning](~/images/phd101212s.gif?raw=True)
+![PHD Comics About Versioning](/images/phd101212s.gif?raw=True "Title")
 
 # Functional Requirements
 
