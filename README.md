@@ -10,6 +10,7 @@ In case you've never seen a goat path before: this is one.
 If you don't follow the goat path as a beginner, bad things happen sometimes. This is so common with git that the popular comic XKCD has even commented on it.
 
 <img src="/images/git_xkcd.png" width="450">
+
 [Comic by XKCD](https://xkcd.com/1597/)
 
 
@@ -18,6 +19,7 @@ If you don't follow the goat path as a beginner, bad things happen sometimes. Th
 We've all had this happen before. Researchers do this to version things all the time. There's a better way!
 
 <img src="/images/phd101212s.gif" width="450">
+
 [Comic by Jorge Cham](http://phdcomics.com/comics/archive.php?comicid=1531)
 
 
