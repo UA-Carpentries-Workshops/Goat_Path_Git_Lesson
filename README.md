@@ -4,10 +4,10 @@ This is the miminum viable git lesson for researchers, also known as the "Goat P
 Why a goat path? Well a goat path can be the shortest (and possibly the safest) path to follow in a remote place you're not familiar with (exactly how researchers learning code often feel about versioning technologies). The beauty of a goat path is that something (quite possibly actual goats) have followed that path so many times it's actually cut a path through the vegetation. If it wasn't safe it's very likely the path wouldn't get cut because those things wouldn't be able to retread their path.
 
 In case you've never seen a goat path before: this is one.
-![Goat Path Goodness](/images/goat_path.jpg?raw=True "Title" {width="100px"})
+<img src="/images/goat_path.jpg" width="75">
 
 If you don't follow the goat path as a beginner, bad things happen sometimes. This is so common with git that the popular comic XKCD has even commented on it.
-![Git Explained](/images/git_xkcd.png?raw=True "Title" =100x)
+<img src="/images/git_xkcd.png" width="75">
 [Comic by XKCD](https://xkcd.com/1597/)
 
 *Please note:* there has been no mention of coding above. That's on purpose; git can be used to version regular text (manuscripts, dissertations, theses, etc), data (though there are many, many other [probably better] ways to do this), as well as code! Versioning is great. And versioning is really the whole point here. Git just happens to be the tool we use (but there are many other options, go explore!). 
