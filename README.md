@@ -49,7 +49,7 @@ This is what git gives you out of the box. Each of those tools are probably very
 # The Goat Path
 
 ## Gitting Setup on a Computer (get it?)
-Be sure that git is installed on the computer. Installation details found on [Google](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+Be sure that git is installed on the computer. Installation details found on [Google](https://duckduckgo.com/?q=never+gonna+give+you+up+video+autoplay+not+on+youtube&t=ffab&ia=videos&iax=videos&iai=dQw4w9WgXcQ).
 1. Create a repository on GitHub
 2. Copy URL for the repository
 3. `git clone URL` in a directory on whatever computer we're using so we can work with the repo.
