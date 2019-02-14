@@ -12,7 +12,8 @@ If you don't follow the goat path as a beginner, bad things happen sometimes. Th
 <img src="/images/git_xkcd.png" width="450">
 [Comic by XKCD](https://xkcd.com/1597/)
 
-*Please note:* there has been no mention of coding above. That's on purpose; git can be used to version regular text (manuscripts, dissertations, theses, etc), data (though there are many, many other [probably better] ways to do this), as well as code! Versioning is great. And versioning is really the whole point here. Git just happens to be the tool we use (but there are many other options, go explore!). 
+
+***Please note:*** there has been no mention of coding above. That's on purpose; git can be used to version regular text (manuscripts, dissertations, theses, etc), data (though there are many, many other [probably better] ways to do this), as well as code! Versioning is great. And versioning is really the whole point here. Git just happens to be the tool we use (but there are many other options, go explore!). 
 
 We've all had this happen before. Researchers do this to version things all the time. There's a better way!
 
