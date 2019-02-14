@@ -5,7 +5,10 @@ This is the miminum viable git lesson for researchers, also known as the "Goat P
 
 We've all had this happen before. Researchers do this to version things all the time. There's a better way!
 ![PHD Comics About Versioning](/images/phd101212s.gif?raw=True "Title")
+
 [Comic by Jorge Cham](http://phdcomics.com/comics/archive.php?comicid=1531)
+
+
 So let's set down some functional requirements for versioning needed by researchers even if they don't know how to code quite yet.
 
 # Functional Requirements
@@ -24,7 +27,8 @@ This is what git gives you out of the box. Each of those tools are probably very
 
 # The Goat Path
 
-## Gitting (get it?) Setup on a Computer
+## Gitting Setup on a Computer (get it?)
+Be sure that git is installed on the computer. Details found on Google.
 1. Create a repository on GitHub
 2. Copy URL for the repository
 3. `git clone URL` in a directory on whatever computer we're using so we can work with the repo.
