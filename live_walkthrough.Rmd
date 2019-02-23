@@ -37,6 +37,12 @@ attach message to each version to know what was changed
 
 ## Demo
 
+have to first configure git on computer
+```{sh}
+git config --global user.name "Firstname Lastname"
+$ git config --global user.email "firstname.lastname@gmail.com"
+```
+
 navigate to GitHub repository folder
 repository copied from GitHub
 working with data files within that repository
