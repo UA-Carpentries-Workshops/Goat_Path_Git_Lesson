@@ -1,5 +1,5 @@
 # The Goat Path Git Lesson
-This is the miminum viable git lesson for researchers also known as the "Goat Path Git." The Oxford definition of goat path is: A (narrow) path or track, especially on a hillside or mountain, such as is made by goats. Here we take a narrow path in describing git that is useful for researchers who need versioning in their day-to-day professional lives.
+This is the minimum viable git lesson for researchers also known as the "Goat Path Git." The Oxford definition of goat path is: A (narrow) path or track, especially on a hillside or mountain, such as is made by goats. Here we take a narrow path in describing git that is useful for researchers who need versioning in their day-to-day professional lives.
 
 Why a goat path? Well a goat path can be the shortest (and possibly the safest) path to follow in a remote place you're not familiar with; this is exactly how researchers learning code often feel about versioning technologies. The beauty of a goat path is that something (quite possibly actual goats) has followed that specific path so many times it's actually cut a visible and easy to follow trail. If it wasn't safe, it's very likely the path wouldn't get cut in the first place, because those things wouldn't be able to retread their path over and over again.
 
@@ -48,7 +48,7 @@ This is what git gives you out of the box. Each of those tools are probably very
 -----------------------------------------------------------------------------------------------------------------------------
 # The Goat Path
 
-## Gitting Setup on a Computer (get it?)
+## Gitting Set up on a Computer (get it?)
 Be sure that git is installed on the computer. Installation details found on [Google](https://duckduckgo.com/?q=never+gonna+give+you+up+video+autoplay+not+on+youtube&t=ffab&ia=videos&iax=videos&iai=dQw4w9WgXcQ).
 1. Create a repository on GitHub
 2. Copy URL for the repository
