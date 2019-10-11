@@ -1,5 +1,5 @@
 # The Goat Path Git Lesson
-This is the miminum viable git lesson for researchers also known as the "Goat Path Git." The Oxford definition of goat path is: A (narrow) path or track, especially on a hillside or mountain, such as is made by goats. Here we take a narrow path in describing git that is useful for researchers who need versioning in their day-to-day professional lives. 
+This is the miminum viable git lesson for researchers also known as the "Goat Path Git." The Oxford definition of goat path is: A (narrow) path or track, especially on a hillside or mountain, such as is made by goats. Here we take a narrow path in describing git that is useful for researchers who need versioning in their day-to-day professional lives.
 
 Why a goat path? Well a goat path can be the shortest (and possibly the safest) path to follow in a remote place you're not familiar with; this is exactly how researchers learning code often feel about versioning technologies. The beauty of a goat path is that something (quite possibly actual goats) has followed that specific path so many times it's actually cut a visible and easy to follow trail. If it wasn't safe, it's very likely the path wouldn't get cut in the first place, because those things wouldn't be able to retread their path over and over again.
 
@@ -14,7 +14,7 @@ If you don't follow the goat path as a beginner, bad things happen sometimes. Th
 [Comic by XKCD](https://xkcd.com/1597/)
 
 
-***Please note:*** there has been no mention of coding above. That's on purpose; git can be used to version regular text (manuscripts, dissertations, theses, etc), data (though there are many, many other [probably better] ways to do this), as well as code! Versioning is great. And versioning is really the whole point here. Git just happens to be the tool we use (but there are many other options, go explore!). 
+***Please note:*** there has been no mention of coding above. That's on purpose; git can be used to version regular text (manuscripts, dissertations, theses, etc), data (though there are many, many other [probably better] ways to do this), as well as code! Versioning is great. And versioning is really the whole point here. Git just happens to be the tool we use (but there are many other options, go explore!).
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## The State of the Art Research Versioning
@@ -31,7 +31,7 @@ So let's set down some functional requirements for versioning needed by research
 
 # Functional Requirements
 
-1. Versioning with (fairly) simple tools to track changes in documents, code, data, etc. 
+1. Versioning with (fairly) simple tools to track changes in documents, code, data, etc.
 - Give researchers something useful that allows them to version things.
 - Let them grow into using other aspects of the tool (git) to solve other versioning needs. These will naturally arise as researchers start to use the tool (git) over time. And there are few things in this world researchers are better at than...you know...researching how to fix a problem. They just need to know where to start!
 
@@ -53,7 +53,7 @@ Be sure that git is installed on the computer. Installation details found on [Go
 1. Create a repository on GitHub
 2. Copy URL for the repository
 3. `git clone URL` in a directory on whatever computer we're using so we can work with the repo.
-4. Now we're all set on the machine you're working on. From here on out it's a cycle. 
+4. Now we're all set on the machine you're working on. From here on out it's a cycle.
 
 ## The Goat Path Git Cycle
 1. Do some things with the repository (e.g. change code, update the files inside, move things around, etc).
@@ -74,7 +74,7 @@ Be sure that git is installed on the computer. Installation details found on [Go
 
 # Frequently Asked Question
 ## Where can I go to find more training for Git after these intro lessons?
-Great question. If you're at the University of Arizona there are organizations that can help: Research Bazaar Arizona. There's also an more advanced git lesson in this organization's profile. 
+Great question. If you're at the University of Arizona there are organizations that can help: Research Bazaar Arizona. There's also an more advanced git lesson in this organization's profile.
 
 
 
@@ -84,4 +84,4 @@ Great question. If you're at the University of Arizona there are organizations t
 Research has been happening for hundreds of years before versioning tools. I think they'll be fine. I'm just trying to teach them something that'll make their life a bit easier.
 
 ## You're playing with forces you can't possibly understand!
-You're right. I'm a researcher; I do that every day. 
+You're right. I'm a researcher; I do that every day.
