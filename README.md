@@ -58,7 +58,7 @@ Be sure that git is installed on the computer. Installation details found on [Go
 ## The Goat Path Git Cycle
 1. Do some things with the repository (e.g. change code, update the files inside, move things around, etc).
 2. `git status` to assess changes to the repository.
-3. `git add filename` stage changes for a commit. If you're 100% sure you like all the changes in a repo you can use `git add *` to stage (most) every change.
+3. `git add filename` stage changes for a commit. If you're 100% sure you like all the changes in a repo you can use `git add --all` (`git add -A` for short) to stage every change in the repo.
 4. `git status` again. This will show you what you're getting ready to commit. This is super useful!
 5. `git commit -m "add a useful message for later here about your checkpoint commit"` to finalize the changes as a commit. This is now a single checkpoint you can always get back to (on the computer you're working on only!).
 6. `git push` to GitHub to save your commit out on the web where you can get at it later on some other computer. Also your collaborators can find it there too (and the entire world if it's public!).
