@@ -1,0 +1,208 @@
+# Git Goat Path for Live Instruction
+
+this is material for the after the [shell intro](https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources/blob/master/shell-lessons/1_intro-to-shell.md) for feb 2019 workshop
+
+## Intro/Motivation (what)
+
+what we're covering today
+fundamental workflow in git
+this is what everyone does
+
+analogy = goat path
+[goat path pic]
+narrow path made on mountain by goats
+used daily
+short and safe path
+very distinct and easy to follow
+there because it's safe and well-tested
+can be tricky/dangerous to walk off, especially if you don't know the dangers
+
+this is covering goat path git
+used by everyone, safe
+that's not to say it's easy
+everyone has to take time to learn the way
+
+## Intro/Motivation (why)
+
+what do you do when you have a file 
+anything (word doc, code, data)
+change it and want to save changes
+options? 
+[jorge cham pic]
+
+this is system to track those changes
+instead of multiple files, keep just one copy of each
+system tracks all versions of those files
+attach message to each version to know what was changed
+
+## Demo
+
+have to first configure git on computer
+```{sh}
+git config --global user.name "Firstname Lastname"
+$ git config --global user.email "firstname.lastname@gmail.com"
+```
+
+navigate to GitHub repository folder
+repository copied from GitHub
+working with data files within that repository
+repo = 2019-02-23-WorkshopResources
+```{sh}
+pwd #/SDC_02-23-2019/repository/data/processed_data
+cd ../../..
+pwd #/SDC_02-23-2019
+cd 2019-02-23-WorkshopResources/shell-lessons/data/gapminder_data/gapminder_by_country/
+```
+
+fix a mistake - colleague told us about it
+```{sh}
+nano Argentina.cc.txt 
+# change 1952 to 1954
+# save file
+```
+
+want to remember that we've made this change
+how to do this
+goat path
+start with git
+```{sh}
+git status
+```
+do this command a lot
+just tells you what's going on
+tells us that we changed a file! 
+"Changes not staged for commit"
+haven't been staged or commited
+will do this next
+
+2 part process
+step 1: 
+add file to the stage
+```{sh}
+git add Argentina.cc.txt 
+git status
+```
+check out to see what happened
+green text means staged
+stage what we have changed
+
+step 2: 
+commit staged file
+"save" what we have changed
+```{sh}
+git commit #don't execute
+git commit -m #an option that means we leave a message
+git commit -m "Fix date error in Argentina file" #include descriptive message of change
+```
+
+how do we see our history of changes? 
+```{sh}
+git status #nothing there has changed since
+git log
+```
+most recent commit (ours) is at top
+can see previous commits to this repo
+arrow keys to scroll
+q to exit
+
+```{sh}
+ls
+```
+there's still only one file! 
+
+let's do it again! 
+we're going to make another change to files in this local repo
+copy file and change its name
+```{sh}
+cat Vietnam.cc.txt
+```
+what's the command for copying? 
+what are arguments? 
+```{sh}
+cp Vietnam.cc.txt Vietnam_copy.cc.txt
+```
+
+what does git say? 
+```{sh}
+git status
+```
+untracked file
+first was modified file bc already committed changes to it before
+this is a new file
+
+same process for saving record of change
+what is step 1? 
+what is step 2? 
+```{sh}
+git add Vietname_copy.cc.txt
+git status
+git commit -m "Create copy of Vietnam file"
+git status
+git log
+```
+
+one more time
+third time's a charm! 
+only interested in data post-2000 for vietname
+how do we do this? 
+```{sh}
+cat Vietnam_copy.cc.txt
+tail -2 Vietnam_copy.cc.txt 
+tail -2 Vietnam_copy.cc.txt >> Vietnam_recent.cc.txt 
+cat Vietnam_recent.cc.txt 
+```
+
+save this new version of the file
+also keep previous verions
+```{sh}
+git status
+git add Vietname_recent.cc.txt
+git commit -m "Subset Vietnam file to post-2000"
+git status
+git log
+```
+
+now we have our files and a record of their changes
+trapped on our personal computer
+what if we want to share them?
+what if we want to save them online? 
+
+[navigate in finder to file]
+this is local repository
+on personal computer
+all we've done is git
+
+can also look at files and versions online
+[open up forked repo in browser]
+this is the remote repository
+they are linked
+[click on commits]
+the remote repo is out of date
+older commits only
+none of three new ones
+
+[back to command line]
+git command for this
+```{sh}
+git push
+```
+[reload page]
+there they are! 
+click on most recent to look at it
+show which file was changed and how
+
+push frequently
+at least once a day
+or after every commit
+
+foundational workflow of git and github
+change files locally
+save those changes
+update remote repo with changes
+
+there is lot more functionality to git/github (collab)
+what we've learned is super useful
+[hammer and multitool pics]
+learn when you need it, not before
+don't be afraid to experiment/do new things
+google google google! 
